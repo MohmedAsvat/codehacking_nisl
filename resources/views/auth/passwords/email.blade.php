@@ -20,7 +20,7 @@
 
                         <div class="text-center">
                             <div class="icon-object border-warning text-warning">
-                                <i class="icon-spinner11"></i>
+                            <img src="{{asset('images/logo_icon_dark.png')}}" alt="" srcset="">
                             </div>
                             <h5 class="content-group">Password recovery
                                 <small class="display-block">We'll send you instructions in email</small>

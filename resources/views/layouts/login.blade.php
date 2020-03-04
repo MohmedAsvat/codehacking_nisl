@@ -70,7 +70,8 @@
                         <div class="panel panel-body login-form">
                             <div class="text-center">
                                 <div class="icon-object border-slate-300 text-slate-300">
-                                    <i class="icon-reading"></i>
+                                    <!-- <i class="icon-reading"></i> -->
+                                    <img src="{{asset('images/logo_icon_dark.png')}}" alt="" srcset="">
                                 </div>
                                 <h5 class="content-group">Login to your account
                                     <small class="display-block">Enter your credentials below</small>

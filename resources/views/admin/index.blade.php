@@ -5,7 +5,7 @@ Dashboard
 @endsection
  @section('content')
 
-<h3>Admin</h3>
+<h3>Dashboard</h3>
 <canvas id="myChart"></canvas>
 <hr>
 
