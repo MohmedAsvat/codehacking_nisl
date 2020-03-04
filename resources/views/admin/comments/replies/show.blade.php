@@ -30,7 +30,7 @@ Replies
             <!-- <td>{{$reply->id}}</td> -->
             <td>{{$reply->author}}</td>
             <td>{{$reply->email}}</td>
-            <td>{{$reply->body}}</td>
+            <td>{{str_limit($reply->body,20)}}</td>
             <td>
             <td><a href="{{route('home.post',$reply->comment->post->id)}}">View Post</a></td>
             </td>
@@ -88,7 +88,6 @@ Replies
 
     </tbody>
 </table>
-
 
 
 @else

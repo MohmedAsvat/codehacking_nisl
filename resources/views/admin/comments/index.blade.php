@@ -29,7 +29,7 @@ Comments
             <!-- <td>{{$comment->id}}</td> -->
             <td>{{$comment->author}}</td>
             <td>{{$comment->email}}</td>
-            <td>{{$comment->body}}</td>
+            <td>{{str_limit($comment->body,20)}}</td>
             <td>{{$comment->created_at ? $comment->created_at->diffForHumans() : ''}}</td>
             <td>{{$comment->updated_at ? $comment->updated_at->diffForHumans() : ''}}</td>
             <td>

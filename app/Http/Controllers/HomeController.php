@@ -27,7 +27,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $posts=Post::paginate(2);
+        $posts=Post::paginate(5);
 
         $categories=Category::all();
 
