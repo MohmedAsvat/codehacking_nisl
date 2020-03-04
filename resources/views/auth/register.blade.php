@@ -6,7 +6,7 @@
             <div class="panel panel-default">
                 <div class="text-center">
                     <div class="icon-object border-success text-success">
-                        <i class="icon-plus">+</i>
+                    <img src="{{asset('images/logo_icon_dark.png')}}" alt="" srcset="">
                     </div>
                     <h5 class="content-group">Create account
                         <small class="display-block">All fields are required</small>
